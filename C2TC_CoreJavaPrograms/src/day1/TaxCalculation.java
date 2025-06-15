@@ -13,7 +13,7 @@ public class TaxCalculation {
 			} else if (person.getIncome() >= 500000 && person.getIncome() <= 800000) {
 				person.setTax((person.getIncome() - 500000) * 20 / 100 + 34000);
 			} else {
-				person.setTax((person.getIncome() - 800000) * 30 / 100 + 94000);
+				person.setTax((person.getIncome() - 700000) * 30 / 100 + 94000);
 			}
 		}
 	}
