@@ -2,7 +2,7 @@ package com.tnsif.day6.usingfinal;
 
 public class FinalMethodClass{
 	//class with final method
-	class FinalMethodClass{
+	//class FinalMethodClass{
 		// constructor
 		FinalMethodClass() {
 			System.out.println("This is a default constructor");
